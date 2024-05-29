@@ -1,9 +1,9 @@
 import styles from "./page.module.css";
 
-export default function Home() {
+export default function PostsDefault() {
   return (
     <main className={styles.main}>
-      <h1 className={styles.title}>Welcome to my blog post!</h1>
+      <h1 className={styles.title}>Default posts detail page!</h1>
       <p className={styles.description}>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum ut
         laborum non incidunt cum possimus nesciunt itaque repudiandae?

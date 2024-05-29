@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   flex: 1;
+  margin: 24px auto;
 }
 
 .title {
@@ -18,4 +19,12 @@
   line-height: 1.5;
   max-width: 700px;
   text-align: center;
+}
+
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 700px;
+  gap: 12px;
 }
